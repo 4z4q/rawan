@@ -6,13 +6,13 @@ import { useRef } from "react";
 const metrics = [
   {
     id: 1,
-    value: "5+",
+    value: "2+",
     label: "Years of Experience",
     description: "Dedicated to honing my skills in full-stack development.",
   },
   {
     id: 2,
-    value: "50+",
+    value: "10+",
     label: "Projects Completed",
     description: "From small applications to complex web platforms.",
   },
@@ -31,7 +31,7 @@ const metrics = [
   },
   {
     id: 5,
-    value: "1000+",
+    value: "10+",
     label: "Commits on GitHub",
     description: "Active contributor to open-source and personal projects.",
   },

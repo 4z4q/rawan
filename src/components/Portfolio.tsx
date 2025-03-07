@@ -15,28 +15,33 @@ import {
 const projects = [
   {
     id: 1,
-    year: "2023",
-    title: "Doodle - customer support chatbot",
+    year: "2024",
+    title: "E-Shop - E-commerce with Product Tracking",
     image: project1,
-    description: `We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodle's customer support inquiries, freeing up their team to focus on more complex issues.`, // link: "https://github.com/username/project1"
+    description:
+      "E-Shop is an advanced e-commerce platform that allows users to track their products easily, providing a seamless shopping experience with transparent order tracking.",
+    // link: "https://github.com/username/project1"
   },
   {
     id: 2,
-    year: "2023",
-    title: "Dash - AI calling system",
+    year: "2024",
+    title: "SweetStore - Sweets & Chocolate Shop",
     image: project2,
     description:
-      "We developed Dash, an AI-powered calling system that enhances customer communication and support with automated features.", // link: "https://github.com/username/project2"
+      "SweetStore is an online shop dedicated to sweets and chocolates lovers, offering a smooth shopping experience with a wide variety of delicious products.",
+    // link: "https://github.com/username/project2"
   },
   {
     id: 3,
-    year: "2023",
-    title: "Atomic - AI driven outreach",
+    year: "2024",
+    title: "SpiceMarket - Coffee, Spices & Nuts Store",
     image: project3,
     description:
-      "Atomic is our AI-driven outreach tool that maximizes engagement and conversions through intelligent automation.", // link: "https://github.com/username/project3"
+      "SpiceMarket is an online store specializing in high-quality coffee, spices, and nuts, catering to those who appreciate authentic flavors.",
+    // link: "https://github.com/username/project3"
   },
 ];
+
 
 const COLOR_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
