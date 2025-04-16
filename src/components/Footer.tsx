@@ -7,10 +7,22 @@ import {
 import { FaTelegramPlane } from "react-icons/fa";
 
 const socialLinks = [
-  { href: "https://github.com/4z4q", Icon: AiFillGithub, label: "GitHub"  },
-  { href: "https://x.com/skodr3", Icon: AiOutlineTwitter, label: "X (Twitter)" },
-  { href: "https://www.facebook.com/share/16CxH7vSJz/", Icon: AiFillFacebook, label: "Facebook" },
-  { href: "https://instagram.com/4z4_q", Icon: AiFillInstagram, label: "Instagram" },
+  { href: "https://github.com/4z4q", Icon: AiFillGithub, label: "GitHub" },
+  {
+    href: "https://x.com/skodr3",
+    Icon: AiOutlineTwitter,
+    label: "X (Twitter)",
+  },
+  {
+    href: "https://www.facebook.com/share/16CxH7vSJz/",
+    Icon: AiFillFacebook,
+    label: "Facebook",
+  },
+  {
+    href: "https://instagram.com/4z4_q",
+    Icon: AiFillInstagram,
+    label: "Instagram",
+  },
   { href: "https://t.me/TP_X1", Icon: FaTelegramPlane, label: "Telegram" },
 ];
 
