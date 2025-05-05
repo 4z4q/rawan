@@ -5,10 +5,8 @@ import { motion } from "framer-motion";
 import {
   ArrowRight,
   Brush,
-  Cable,
   Calendar,
   CheckCircle,
-  Clock,
   MessageCircle,
   PenTool,
   User,
