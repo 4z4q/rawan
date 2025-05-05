@@ -1,27 +1,27 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Cairo } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
+const cairo = Cairo({
   subsets: ["latin"],
-  weight: ["100", "200", "400", "700", "900"],
+  weight: ["400", "700", "900"],
 });
 
-
-
 export const metadata: Metadata = {
-  title: "Mohammed Jameel | Web Developer Portfolio",
-  description: "Portfolio of Mohammed Jameel, a skilled web developer with expertise in React, Next.js, and modern web technologies.",
-  keywords: "Mohammed Jameel, Web Developer, Portfolio, React, Next.js, Front-end Developer, JavaScript, Web Development",
-  authors: [{ name: "Mohammed Jameel" }],
-  robots: "index, follow", 
+  title: "روان علي | مصممة جرافيك محترفة",
+  description:
+    "اكتشف أعمال المصممة روان علي، المتخصصة في التصميم باستخدام Adobe والذكاء الاصطناعي، مع لمسة إبداعية تركز على التفاصيل والجودة.",
+  keywords:
+    "روان علي, تصميم جرافيك, تصميم حسب الطلب, Adobe, ذكاء اصطناعي, فوتوشوب, إليستريتور, تصميم عصري, أعمال تصميم",
+  authors: [{ name: "روان علي" }],
+  robots: "index, follow",
   openGraph: {
-    title: "Mohammed Jameel | Web Developer Portfolio",
-    description: "Explore the portfolio of Mohammed Jameel, showcasing web development projects with React, Next.js, and more.",
-    // url: "https://your-portfolio-link.com", 
+    title: "روان علي | مصممة جرافيك محترفة",
+    description:
+      "معرض أعمال المصممة روان علي في مجال التصميم الإبداعي باستخدام أدوات Adobe وتقنيات الذكاء الاصطناعي.",
+    // url: "https://rawan-design.com", // ضع رابطك الفعلي هنا إن وُجد
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -29,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${poppins.className}   antialiased`}>{children}</body>
+    <html lang="ar" dir="rtl">
+      <body className={`${cairo.className}   antialiased`}>{children}</body>
     </html>
   );
 }
